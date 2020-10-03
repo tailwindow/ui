@@ -1,4 +1,4 @@
-# ui
+# Tailwindow UI
 
 ## Project setup
 ```
