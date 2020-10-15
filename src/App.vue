@@ -25,6 +25,7 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 .fade-enter-active,
 .fade-leave-active {
   transition: transform 0.55s, opacity 0.58s ease-in-out;
