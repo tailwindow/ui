@@ -1,11 +1,11 @@
 <template>
-  <div class="px-6 mt-32 ml-72">
+  <div class="px-16 mt-32 ml-64">
     <div class="flex flex-col space-y-10">
       <div>
         <h1 class="font-bold text-heading-1 font-primary">
           This is Introduction for Components
         </h1>
-        <p class="text-gray-light font-secondary text-subtitle-1">
+        <p class="text-gray text-description">
           Color is a great way to impart vitality, provide visual continuity,
           communicate status information, give feedback in response to user
           actions, and help people visualize data. Look to the system’s color

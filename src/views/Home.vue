@@ -4,16 +4,17 @@
     <div class="px-16">
       <div class="flex flex-wrap items-center">
         <div class="flex flex-wrap items-center w-1/2 h-128">
-          <div class="flex flex-col space-y-10">
+          <div class="flex flex-col space-y-8">
             <h1
               class="font-extrabold leading-tight font-primary text-display-6"
             >
-              TailwindCSS Components
+              A Tailwind Components
               <br />
               to build
+              <span class="text-primary">Awesome </span>
               <span class="text-primary">User Interface</span>
             </h1>
-            <p class="text-subtitle-1 text-gray-light">
+            <p class="text-subtitle-2 text-gray">
               Tailwindow is a collection of UI Components created using Tailwind
               CSS Framework. The UI Components gives you all of the building
               blocks you need to build any designs without any annoying
@@ -26,23 +27,46 @@
               >
                 Introduction
                 <svg
-                  class="w-6 h-6 ml-12"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
+                  class="flex-shrink-0 w-6 h-6 ml-12"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
+                  ></path>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                   ></path>
                 </svg>
               </router-link>
-              <button
-                class="flex items-center justify-center h-12 px-4 transition duration-500 border-2 rounded text-primary text-title-4 border-primary focus:outline-none hover:bg-primary-hover hover:border-primary-hover hover:text-white"
+              <router-link
+                to="/components/instalation"
+                class="flex items-center justify-between h-12 px-4 transition duration-500 rounded text-primary text-title-4 bg-primary-alpha focus:outline-none hover:bg-primary-hover hover:text-white"
               >
-                Instalation
-              </button>
+                Installation
+                <svg
+                  class="flex-shrink-0 w-6 h-6 ml-12"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                  ></path>
+                </svg>
+              </router-link>
             </div>
           </div>
         </div>
@@ -122,7 +146,7 @@
     </div>
 
     <!-- The Components -->
-    <div class="mt-12 bg-blue">
+    <div class="mt-12 bg-primary">
       <div
         class="container flex flex-col items-center px-5 py-24 mx-auto md:flex-row"
       >

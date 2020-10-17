@@ -7,7 +7,7 @@
       <router-view />
     </transition>
 
-    <Footer />
+    <Footer v-if="$route.name.includes('Home')" />
   </div>
 </template>
 

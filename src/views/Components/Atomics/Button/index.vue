@@ -1,11 +1,11 @@
 <template>
-  <div class="px-6 mt-32 ml-72">
+  <div class="px-16 mt-20 ml-64">
     <div class="flex flex-col space-y-10">
       <div>
         <h1 class="font-bold text-heading-1 font-primary">
           Button
         </h1>
-        <p class="text-gray-light font-secondary text-subtitle-3">
+        <p class="text-gray font-secondary text-subtitle-4">
           Color is a great way to impart vitality, provide visual continuity,
           communicate status information, give feedback in response to user
           actions, and help people visualize data.
