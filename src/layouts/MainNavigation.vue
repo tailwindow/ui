@@ -9,7 +9,7 @@
             <router-link to="/" class="flex">
               <img
                 class="w-auto h-8 sm:h-10"
-                src="../assets/logo/tailwindow.svg"
+                src="https://qloud-storage.s3-ap-southeast-1.amazonaws.com/logo/qloud-ui-logo.svg"
                 alt="Logo"
               />
             </router-link>
