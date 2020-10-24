@@ -1,7 +1,16 @@
 @tailwind base;
 @tailwind components;
 body {
-    color: #363a5d;
+    color: #172B4D;
+}
+
+body {
+    @apply text-regular;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    @apply font-primary;
+    @apply font-medium;
 }
 
 @tailwind utilities;

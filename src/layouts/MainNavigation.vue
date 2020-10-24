@@ -1,15 +1,16 @@
 <template>
   <div class="fixed inset-x-0 top-0 z-50 flex flex-col w-full">
-    <div class="z-50 bg-white border-b-2 border-light shadow-10">
+    <div class="z-50 bg-white border-b-2 border-gray-50 shadow-10">
       <div class="px-4 mx-auto max-w-7xl sm:px-6">
         <div
-          class="flex items-center justify-between py-4 md:justify-start md:space-x-10"
+          class="flex items-center justify-between py-2 md:justify-start md:space-x-10"
         >
+          <!-- Logo -->
           <div class="lg:w-0 lg:flex-1">
             <router-link to="/" class="flex">
               <img
-                class="w-auto h-8 sm:h-10"
-                src="https://qloud-storage.s3-ap-southeast-1.amazonaws.com/logo/qloud-ui-logo.svg"
+                class="w-auto h-8 sm:h-12"
+                src="https://qloud-storage.s3-ap-southeast-1.amazonaws.com/logo/tailwindow-logo1.svg"
                 alt="Logo"
               />
             </router-link>

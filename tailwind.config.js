@@ -8,10 +8,8 @@ module.exports = {
   purge: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"],
   theme: {
     colors: {
-      body: "#F7F8FB",
-      black: "#1F1F21",
+      black: "#172B4D",
       white: "#ffff",
-      light: "#fbfbfd",
       //
       primary: {
         default: "#0a84ff",
@@ -145,27 +143,17 @@ module.exports = {
         "dark-alpha-hover": "rgba(255, 212, 38, 0.1)"
       },
       gray: {
-        ...colors.gray,
-        default: "#808291",
-        hover: "#6C6C70",
-        alpha: "rgba(0, 122, 255, 0.1)",
-        "alpha-hover": "rgba(0, 64, 221, 0.1)",
-        //
-        dark: "#f2f2f7",
-        "dark-hover": "#d1d1d6",
-        "dark-alpha": "rgba(10, 132, 255, 0.1)",
-        "dark-alpha-hover": "rgba(64, 156, 255, 0.1)"
-      },
-      grey: {
-        default: "#9696A0",
-        hover: "#9691A0",
-        alpha: "rgba(0, 122, 255, 0.1)",
-        "alpha-hover": "rgba(0, 64, 221, 0.1)",
-        //
-        dark: "#f2f2f7",
-        "dark-hover": "#d1d1d6",
-        "dark-alpha": "rgba(10, 132, 255, 0.1)",
-        "dark-alpha-hover": "rgba(64, 156, 255, 0.1)"
+        default: "#5E6C84",
+        50: "#F6F7F7",
+        100: "#F4F5F7",
+        200: "#EBECF0",
+        300: "#DFE1E6",
+        400: "#C1C7D0",
+        500: "#B3BAC5",
+        600: "#6B778C",
+        700: "#5E6C84",
+        800: "#505F79",
+        900: "#42526E"
       }
     },
     extend: {
@@ -202,9 +190,24 @@ module.exports = {
       },
       fontFamily: {
         // default tailwind
-        sans: ["Inter", "system-ui", "-apple-system", "BlinkMacSystemFont"],
-        serif: ["Source Serif Pro", "Cambria"],
-        mono: ["Source Code Pro", "Menlo"],
+        sans: [
+          "-apple-system",
+          "system-ui",
+          "BlinkMacSystemFont",
+          "Segoe UI",
+          "Roboto"
+        ],
+        serif: ["Source Code Pro", "Menlo"],
+        mono: [
+          "SFMono-Medium",
+          "SF Mono",
+          "Segoe UI Mono",
+          "Roboto Mono",
+          "Ubuntu Mono",
+          "Menlo",
+          "Consolar",
+          "Courier"
+        ],
         // custom
         primary: [
           "Manrope",
@@ -215,39 +218,40 @@ module.exports = {
         secondary: ["Inter", "system-ui", "-apple-system", "BlinkMacSystemFont"]
       },
       fontSize: {
-        paragraph: "12px",
-        description: "10px",
+        large: "16px",
+        regular: "14px",
+        small: "12px",
         //
-        "display-1": "90px",
-        "display-2": "80px",
-        "display-3": "70px",
-        "display-4": "60px",
-        "display-5": "50px",
-        "display-6": "40px",
+        "display-1": "64px",
+        "display-2": "60px",
+        "display-3": "56px",
+        "display-4": "52px",
+        "display-5": "48px",
+        "display-6": "44px",
         "heading-1": "36px",
         "heading-2": "32px",
         "heading-3": "28px",
         "heading-4": "24px",
         "heading-5": "20px",
         "heading-6": "16px",
-        "title-1": "26px",
-        "title-2": "24px",
-        "title-3": "22px",
-        "title-4": "20px",
-        "title-5": "18px",
-        "title-6": "16px",
-        "subtitle-1": "20px",
-        "subtitle-2": "18px",
-        "subtitle-3": "16px",
-        "subtitle-4": "14px",
-        "subtitle-5": "12px",
-        "subtitle-6": "10px",
-        "label-1": "16px",
-        "label-2": "14px",
+        "title-1": "24px",
+        "title-2": "22px",
+        "title-3": "20px",
+        "title-4": "18px",
+        "title-5": "16px",
+        "title-6": "14px",
+        "subtitle-1": "16px",
+        "subtitle-2": "14px",
+        "subtitle-3": "12px",
+        "subtitle-4": "10px",
+        "subtitle-5": "8px",
+        "subtitle-6": "6px",
+        "label-1": "14px",
+        "label-2": "13px",
         "label-3": "12px",
-        "label-4": "10px",
-        "label-5": "8px",
-        "label-6": "6px"
+        "label-4": "11px",
+        "label-5": "10px",
+        "label-6": "9px"
       }
     }
   },

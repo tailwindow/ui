@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed inset-y-0 left-0 z-10 w-64 h-screen px-2 bg-light">
+  <div class="fixed inset-y-0 left-0 z-10 w-64 h-screen px-2 bg-gray-50">
     <div class="h-screen pt-20 overflow-y-auto">
       <ul class="flex flex-col w-full">
         <li class="my-px">
@@ -53,7 +53,7 @@
         <li>
           <span
             :class="showUtilities ? 'bg-primary-alpha text-primary' : ''"
-            class="flex flex-row items-center p-2 px-4 mt-4 font-bold transition duration-200 cursor-pointer text-title-4 font-primary hover:bg-primary-alpha hover:text-primary rounded-10"
+            class="flex flex-row items-center p-2 px-4 mt-4 font-bold transition duration-200 cursor-pointer font-primary hover:bg-primary-alpha hover:text-primary rounded-10"
             @click="
               showUtilities ? (showUtilities = false) : (showUtilities = true)
             "
@@ -106,7 +106,7 @@
         <li class="my-px">
           <span
             :class="showAtomics ? 'bg-primary-alpha text-primary' : ''"
-            class="flex flex-row items-center p-2 px-4 font-bold transition duration-200 cursor-pointer text-title-4 font-primary hover:bg-primary-alpha hover:text-primary rounded-10"
+            class="flex flex-row items-center p-2 px-4 font-bold transition duration-200 cursor-pointer font-primary hover:bg-primary-alpha hover:text-primary rounded-10"
             @click="showAtomics ? (showAtomics = false) : (showAtomics = true)"
           >
             <svg
@@ -131,31 +131,31 @@
             to="/components/atomics/form"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Form</span>
+            <span>Form ✅</span>
           </router-link>
           <router-link
             to="/components/atomics/button"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Button</span>
+            <span>Button ✅</span>
           </router-link>
           <router-link
             to="/components/atomics/listview"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>List View</span>
+            <span>List View ✅</span>
           </router-link>
           <router-link
             to="/components/atomics/tabview"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Tab View</span>
+            <span>Tab View ✅</span>
           </router-link>
           <router-link
             to="/components/atomics/table"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Table</span>
+            <span>Table ✅</span>
           </router-link>
           <router-link
             to="/components/atomics/navigation"
@@ -198,7 +198,7 @@
         <!-- Molecul Components -->
         <li class="my-px">
           <span
-            class="flex flex-row items-center p-2 px-4 font-bold transition duration-200 cursor-pointer text-title-4 font-primary hover:bg-primary-alpha hover:text-primary rounded-10"
+            class="flex flex-row items-center p-2 px-4 font-bold transition duration-200 cursor-pointer font-primary hover:bg-primary-alpha hover:text-primary rounded-10"
           >
             <svg
               class="flex-shrink-0 w-6 h-6 mr-2"
@@ -221,7 +221,7 @@
         <!-- Organism Components -->
         <li class="my-px">
           <span
-            class="flex flex-row items-center p-2 px-4 font-bold transition duration-200 cursor-pointer text-title-4 font-primary hover:bg-primary-alpha hover:text-primary rounded-10"
+            class="flex flex-row items-center p-2 px-4 font-bold transition duration-200 cursor-pointer font-primary hover:bg-primary-alpha hover:text-primary rounded-10"
           >
             <svg
               class="flex-shrink-0 w-6 h-6 mr-2"
@@ -244,7 +244,7 @@
         <!-- Molecules Components -->
         <li class="my-px">
           <span
-            class="flex flex-row items-center p-2 px-4 font-bold transition duration-200 cursor-pointer text-title-4 font-primary hover:bg-primary-alpha hover:text-primary rounded-10"
+            class="flex flex-row items-center p-2 px-4 font-bold transition duration-200 cursor-pointer font-primary hover:bg-primary-alpha hover:text-primary rounded-10"
           >
             <svg
               class="flex-shrink-0 w-6 h-6 mr-2"
@@ -267,7 +267,7 @@
         <!-- Pages Components -->
         <li class="my-px">
           <span
-            class="flex flex-row items-center p-2 px-4 font-bold transition duration-200 cursor-pointer text-title-4 font-primary hover:bg-primary-alpha hover:text-primary rounded-10"
+            class="flex flex-row items-center p-2 px-4 font-bold transition duration-200 cursor-pointer font-primary hover:bg-primary-alpha hover:text-primary rounded-10"
           >
             <svg
               class="flex-shrink-0 w-6 h-6 mr-2"

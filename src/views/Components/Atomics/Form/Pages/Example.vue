@@ -94,10 +94,6 @@
           placeholder="Square"
         />
       </div>
-      <!-- <div class="mb-2">
-          <label for="rounded-sm-text" class="text-sm leading-7 text-gray-700">Rounded Small</label>
-          <input id="rounded-sm-text" type="text" class="block w-full px-4 py-1 text-gray-700 border border-gray-400 rounded-sm text-md focus:outline-none focus:border-gray-500" placeholder="Rounded Small">
-        </div> -->
       <div class="mb-2">
         <label for="rounded-md-text" class="text-sm leading-7 text-gray-700"
           >Rounded</label
@@ -109,10 +105,17 @@
           placeholder="Rounded"
         />
       </div>
-      <!-- <div class="mb-2">
-          <label for="rounded-lg-text" class="text-sm leading-7 text-gray-700">Rounded Large</label>
-          <input id="rounded-lg-text" type="text" class="block w-full px-4 py-1 text-gray-700 border border-gray-400 rounded-lg text-md focus:outline-none focus:border-gray-500" placeholder="Rounded Large">
-        </div> -->
+      <div class="mb-2">
+        <label for="rounded-lg-text" class="text-sm leading-7 text-gray-700"
+          >Rounded Large</label
+        >
+        <input
+          id="rounded-lg-text"
+          type="text"
+          class="block w-full px-4 py-1 text-gray-700 border border-gray-400 rounded-lg text-md focus:outline-none focus:border-gray-500"
+          placeholder="Rounded Large"
+        />
+      </div>
       <div class="mb-2">
         <label for="rounded-full-text" class="text-sm leading-7 text-gray-700"
           >Rounded Full</label
