@@ -115,14 +115,9 @@ const routes = [
     component: () => import("../views/Components/Atomics/Avatar/index.vue")
   },
   {
-    path: "/components/atomics/chips",
-    name: "ComponentsAtomicsChips",
-    component: () => import("../views/Components/Atomics/Chips/index.vue")
-  },
-  {
-    path: "/components/atomics/tooltip",
-    name: "ComponentsAtomicsTooltip",
-    component: () => import("../views/Components/Atomics/Tooltip/index.vue")
+    path: "/components/atomics/tag",
+    name: "ComponentsAtomicsTag",
+    component: () => import("../views/Components/Atomics/Tag/index.vue")
   },
 
   // Components Molecules

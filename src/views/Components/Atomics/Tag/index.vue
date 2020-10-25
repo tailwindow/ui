@@ -3,11 +3,11 @@
     <div class="flex flex-col space-y-10">
       <div>
         <h1 class="font-bold text-heading-1 font-primary">
-          Tab View
+          Tag
         </h1>
         <p class="text-gray font-secondary text-subtitle-1">
-          A button triggers an event or action. They let users know what will
-          happen next.
+          A badge is a visual indicator for numeric values such as tallies and
+          scores.
         </p>
       </div>
 

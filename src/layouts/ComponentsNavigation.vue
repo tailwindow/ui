@@ -80,25 +80,25 @@
             to="/components/utilities/color"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Color</span>
+            <span>Color ✅</span>
           </router-link>
           <router-link
             to="/components/utilities/shadow"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Shadow</span>
+            <span>Shadow ✅</span>
           </router-link>
           <router-link
             to="/components/utilities/rounded"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Rounded</span>
+            <span>Rounded ✅</span>
           </router-link>
           <router-link
             to="/components/utilities/typography"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Typography</span>
+            <span>Typography ✅</span>
           </router-link>
         </li>
 
@@ -161,37 +161,31 @@
             to="/components/atomics/navigation"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Navigation</span>
+            <span>Navigation ✅</span>
           </router-link>
           <router-link
             to="/components/atomics/alert"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Alert</span>
+            <span>Alert ✅</span>
           </router-link>
           <router-link
             to="/components/atomics/badge"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Badge</span>
+            <span>Badge ✅</span>
           </router-link>
           <router-link
             to="/components/atomics/avatar"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Avatar</span>
+            <span>Avatar ✅</span>
           </router-link>
           <router-link
-            to="/components/atomics/chips"
+            to="/components/atomics/tag"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Chips</span>
-          </router-link>
-          <router-link
-            to="/components/atomics/tooltip"
-            class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
-          >
-            <span>Tooltip</span>
+            <span>Tag ✅</span>
           </router-link>
         </li>
 
