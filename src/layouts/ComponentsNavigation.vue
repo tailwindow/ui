@@ -1,5 +1,7 @@
 <template>
-  <div class="fixed inset-y-0 left-0 z-10 w-64 h-screen px-2 bg-gray-50">
+  <div
+    class="fixed inset-y-0 left-0 z-10 w-64 h-screen px-2 bg-white border-r border-gray-100"
+  >
     <div class="h-screen pt-20 overflow-y-auto">
       <ul class="flex flex-col w-full">
         <li class="my-px">

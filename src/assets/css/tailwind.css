@@ -1,17 +1,57 @@
 @tailwind base;
 @tailwind components;
 body {
-    background: #fafbfc;
-    color: #172B4D;
-}
-
-body {
+    background: #ffffff;
     @apply text-regular;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
     @apply font-primary;
     @apply font-medium;
+}
+
+.bg-primary-gradient {
+    background: linear-gradient( 180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.0001) 100%), #007aff;
+}
+
+.bg-blue-gradient {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.0001) 100%), #007AFF;
+}
+
+.bg-green-gradient {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.0001) 100%), #34C759;
+}
+
+.bg-green-gradient {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.0001) 100%), #34C759;
+}
+
+.bg-indigo-gradient {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.0001) 100%), #5856D6;
+}
+
+.bg-orange-gradient {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.0001) 100%), #FF9500;
+}
+
+.bg-pink-gradient {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.0001) 100%), #FF2D55;
+}
+
+.bg-purple-gradient {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.0001) 100%), #AF52DE;
+}
+
+.bg-red-gradient {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.0001) 100%), #FF3B30;
+}
+
+.bg-teal-gradient {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.0001) 100%), #5AC8FA;
+}
+
+.bg-yellow-gradient {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.0001) 100%), #FFCC00;
 }
 
 @tailwind utilities;

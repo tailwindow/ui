@@ -104,7 +104,7 @@
 
         <!-- Data -->
         <div
-          class="flex flex-row items-center w-full h-12 p-2 space-x-4 bg-white border rounded-lg"
+          class="flex flex-row items-center w-full h-12 p-2 space-x-4 bg-white rounded-lg shadow-10"
         >
           <div class="w-1/6">
             Project Name
@@ -123,7 +123,7 @@
           </div>
         </div>
         <div
-          class="flex flex-row items-center w-full h-12 p-2 space-x-4 bg-white border rounded-lg"
+          class="flex flex-row items-center w-full h-12 p-2 space-x-4 bg-white rounded-lg shadow-10"
         >
           <div class="w-1/6">
             Project Name

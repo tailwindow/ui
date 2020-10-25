@@ -6,9 +6,7 @@
         <p class="text-gray text-description">
           Color is a great way to impart vitality, provide visual continuity,
           communicate status information, give feedback in response to user
-          actions, and help people visualize data. Look to the system’s color
-          scheme for guidance when picking app tint colors that look great
-          individually and in combination, on both light and dark backgrounds.
+          actions, and help people visualize data.
         </p>
       </div>
 
@@ -16,6 +14,7 @@
       <div class="w-full px-4 py-4 bg-white rounded-10 shadow-10">
         <h2 class="text-heading-2">Basic Color</h2>
         <div class="flex flex-wrap -mx-3">
+          <!-- Blue -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
               <span class="mb-2 font-semibold text-title-2 text-primary"
@@ -54,6 +53,7 @@
             </div>
           </div>
 
+          <!-- Green -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
               <span class="mb-2 font-semibold text-title-2 text-green"
@@ -92,6 +92,7 @@
             </div>
           </div>
 
+          <!-- Indigo -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
               <span class="mb-2 font-semibold text-title-2 text-indigo"
@@ -130,10 +131,11 @@
             </div>
           </div>
 
+          <!-- Orange -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
               <span class="mb-2 font-semibold text-title-2 text-orange"
-                >Ornage</span
+                >Orange</span
               >
               <div class="flex flex-wrap -mx-4">
                 <div class="w-1/2 px-4">
@@ -168,6 +170,7 @@
             </div>
           </div>
 
+          <!-- Pink -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
               <span class="mb-2 font-semibold text-title-2 text-pink"
@@ -206,6 +209,7 @@
             </div>
           </div>
 
+          <!-- Purple -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
               <span class="mb-2 font-semibold text-title-2 text-purple"
@@ -244,9 +248,10 @@
             </div>
           </div>
 
+          <!-- Light -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-red">red</span>
+              <span class="mb-2 font-semibold text-title-2 text-red">Red</span>
               <div class="flex flex-wrap -mx-4">
                 <div class="w-1/2 px-4">
                   Light
@@ -278,6 +283,7 @@
             </div>
           </div>
 
+          <!-- Teal -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
               <span class="mb-2 font-semibold text-title-2 text-teal"
@@ -316,6 +322,7 @@
             </div>
           </div>
 
+          <!-- Yellow -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
               <span class="mb-2 font-semibold text-title-2 text-yellow"
@@ -354,37 +361,58 @@
             </div>
           </div>
 
-          <div class="w-1/3 p-3">
+          <!-- Gray -->
+          <div class="w-full p-3">
             <div class="p-3 border rounded-10">
               <span class="mb-2 font-semibold text-title-2 text-gray"
                 >Gray</span
               >
               <div class="flex flex-wrap -mx-4">
-                <div class="w-1/2 px-4">
-                  Light
+                <div class="w-full px-4">
                   <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
+                    <div class="flex flex-col w-1/12">
                       <div class="w-12 h-12 bg-gray rounded-10"></div>
                       <span class="text-subtitle-4 text-gray">Default</span>
                     </div>
-                    <div class="flex flex-col w-1/2">
-                      <div class="w-12 h-12 bg-gray-hover rounded-10"></div>
-                      <span class="text-subtitle-4 text-gray">Hover</span>
+                    <div class="flex flex-col w-1/12">
+                      <div class="w-12 h-12 bg-gray-50 rounded-10"></div>
+                      <span class="text-subtitle-4 text-gray">Gray 50</span>
                     </div>
-                  </div>
-                </div>
-                <div class="w-1/2 px-4">
-                  Dark
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div class="w-12 h-12 bg-gray-dark rounded-10"></div>
-                      <span class="text-subtitle-4 text-gray">Default</span>
+                    <div class="flex flex-col w-1/12">
+                      <div class="w-12 h-12 bg-gray-100 rounded-10"></div>
+                      <span class="text-subtitle-4 text-gray">Gray 100</span>
                     </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-gray-dark-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-4 text-gray">Hover</span>
+                    <div class="flex flex-col w-1/12">
+                      <div class="w-12 h-12 bg-gray-200 rounded-10"></div>
+                      <span class="text-subtitle-4 text-gray">Gray 200</span>
+                    </div>
+                    <div class="flex flex-col w-1/12">
+                      <div class="w-12 h-12 bg-gray-300 rounded-10"></div>
+                      <span class="text-subtitle-4 text-gray">Gray 300</span>
+                    </div>
+                    <div class="flex flex-col w-1/12">
+                      <div class="w-12 h-12 bg-gray-400 rounded-10"></div>
+                      <span class="text-subtitle-4 text-gray">Gray 400</span>
+                    </div>
+                    <div class="flex flex-col w-1/12">
+                      <div class="w-12 h-12 bg-gray-500 rounded-10"></div>
+                      <span class="text-subtitle-4 text-gray">Gray 500</span>
+                    </div>
+                    <div class="flex flex-col w-1/12">
+                      <div class="w-12 h-12 bg-gray-600 rounded-10"></div>
+                      <span class="text-subtitle-4 text-gray">Gray 600</span>
+                    </div>
+                    <div class="flex flex-col w-1/12">
+                      <div class="w-12 h-12 bg-gray-700 rounded-10"></div>
+                      <span class="text-subtitle-4 text-gray">Gray 700</span>
+                    </div>
+                    <div class="flex flex-col w-1/12">
+                      <div class="w-12 h-12 bg-gray-800 rounded-10"></div>
+                      <span class="text-subtitle-4 text-gray">Gray 800</span>
+                    </div>
+                    <div class="flex flex-col w-1/12">
+                      <div class="w-12 h-12 bg-gray-900 rounded-10"></div>
+                      <span class="text-subtitle-4 text-gray">Gray 900</span>
                     </div>
                   </div>
                 </div>
@@ -398,9 +426,10 @@
       <div class="w-full px-4 py-4 bg-white rounded-10 shadow-10">
         <h2 class="text-heading-2">Alpha Color</h2>
         <div class="flex flex-wrap -mx-3">
+          <!-- Blue -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-primary-alpha"
+              <span class="mb-2 font-semibold text-title-2 text-primary"
                 >Blue</span
               >
               <div class="flex flex-wrap -mx-4">
@@ -440,9 +469,10 @@
             </div>
           </div>
 
+          <!-- Green -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-green-alpha"
+              <span class="mb-2 font-semibold text-title-2 text-green"
                 >Green</span
               >
               <div class="flex flex-wrap -mx-4">
@@ -482,9 +512,10 @@
             </div>
           </div>
 
+          <!-- Indigo -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-indigo-alpha"
+              <span class="mb-2 font-semibold text-title-2 text-indigo"
                 >Indigo</span
               >
               <div class="flex flex-wrap -mx-4">
@@ -524,10 +555,11 @@
             </div>
           </div>
 
+          <!-- Orange -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-orange-alpha"
-                >Ornage</span
+              <span class="mb-2 font-semibold text-title-2 text-orange"
+                >Orange</span
               >
               <div class="flex flex-wrap -mx-4">
                 <div class="w-1/2 px-4">
@@ -566,9 +598,10 @@
             </div>
           </div>
 
+          <!-- Pink -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-pink-alpha"
+              <span class="mb-2 font-semibold text-title-2 text-pink"
                 >Pink</span
               >
               <div class="flex flex-wrap -mx-4">
@@ -608,9 +641,10 @@
             </div>
           </div>
 
+          <!-- Purple -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-purple-alpha"
+              <span class="mb-2 font-semibold text-title-2 text-purple"
                 >Purple</span
               >
               <div class="flex flex-wrap -mx-4">
@@ -650,11 +684,10 @@
             </div>
           </div>
 
+          <!-- Red -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-red-alpha"
-                >red</span
-              >
+              <span class="mb-2 font-semibold text-title-2 text-red">Red</span>
               <div class="flex flex-wrap -mx-4">
                 <div class="w-1/2 px-4">
                   Light
@@ -690,9 +723,10 @@
             </div>
           </div>
 
+          <!-- Teal -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-teal-alpha"
+              <span class="mb-2 font-semibold text-title-2 text-teal"
                 >Teal</span
               >
               <div class="flex flex-wrap -mx-4">
@@ -732,9 +766,10 @@
             </div>
           </div>
 
+          <!-- Yellow -->
           <div class="w-1/3 p-3">
             <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-yellow-alpha"
+              <span class="mb-2 font-semibold text-title-2 text-yellow"
                 >Yellow</span
               >
               <div class="flex flex-wrap -mx-4">
@@ -773,48 +808,6 @@
               </div>
             </div>
           </div>
-
-          <div class="w-1/3 p-3">
-            <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-gray-alpha"
-                >Gray</span
-              >
-              <div class="flex flex-wrap -mx-4">
-                <div class="w-1/2 px-4">
-                  Light
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div class="w-12 h-12 bg-gray-alpha rounded-10"></div>
-                      <span class="text-subtitle-4 text-gray">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-gray-alpha-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-4 text-gray">Hover</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-1/2 px-4">
-                  Dark
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-gray-dark-alpha rounded-10"
-                      ></div>
-                      <span class="text-subtitle-4 text-gray">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-gray-dark-alpha-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-4 text-gray">Hover</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -822,430 +815,54 @@
       <div class="w-full px-4 py-4 bg-white rounded-10 shadow-10">
         <h2 class="text-heading-2">Gradient Color</h2>
         <div class="flex flex-wrap -mx-3">
-          <div class="w-1/3 p-3">
+          <div class="w-full p-3">
             <div class="p-3 border rounded-10">
-              <span
-                class="mb-2 font-semibold text-title-2 text-primary-gradient"
-                >Blue</span
-              >
               <div class="flex flex-wrap -mx-4">
-                <div class="w-1/2 px-4">
-                  Light
+                <div class="w-full px-4">
                   <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-primary-gradient rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
+                    <div class="flex flex-col w-1/12">
+                      <div class="w-12 h-12 bg-blue-gradient rounded-10"></div>
+                      <span class="text-subtitle-4 text-gray">Blue</span>
                     </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-primary-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-1/2 px-4">
-                  Dark
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-primary-dark-gradient rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-primary-dark-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-1/3 p-3">
-            <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-green-gradient"
-                >Green</span
-              >
-              <div class="flex flex-wrap -mx-4">
-                <div class="w-1/2 px-4">
-                  Light
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
+                    <div class="flex flex-col w-1/12">
                       <div class="w-12 h-12 bg-green-gradient rounded-10"></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
+                      <span class="text-subtitle-4 text-gray">Green</span>
                     </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-green-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-1/2 px-4">
-                  Dark
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-green-dark-gradient rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-green-dark-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-1/3 p-3">
-            <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-indigo-gradient"
-                >Indigo</span
-              >
-              <div class="flex flex-wrap -mx-4">
-                <div class="w-1/2 px-4">
-                  Light
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
+                    <div class="flex flex-col w-1/12">
                       <div
                         class="w-12 h-12 bg-indigo-gradient rounded-10"
                       ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
+                      <span class="text-subtitle-4 text-gray">Indigo</span>
                     </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-indigo-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-1/2 px-4">
-                  Dark
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-indigo-dark-gradient rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-indigo-dark-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-1/3 p-3">
-            <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-orange-gradient"
-                >Ornage</span
-              >
-              <div class="flex flex-wrap -mx-4">
-                <div class="w-1/2 px-4">
-                  Light
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
+                    <div class="flex flex-col w-1/12">
                       <div
                         class="w-12 h-12 bg-orange-gradient rounded-10"
                       ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
+                      <span class="text-subtitle-4 text-gray">Orange</span>
                     </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-orange-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-1/2 px-4">
-                  Dark
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-orange-dark-gradient rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-orange-dark-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-1/3 p-3">
-            <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-pink-gradient"
-                >Pink</span
-              >
-              <div class="flex flex-wrap -mx-4">
-                <div class="w-1/2 px-4">
-                  Light
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
+                    <div class="flex flex-col w-1/12">
                       <div class="w-12 h-12 bg-pink-gradient rounded-10"></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
+                      <span class="text-subtitle-4 text-gray">Pink</span>
                     </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-pink-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-1/2 px-4">
-                  Dark
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-pink-dark-gradient rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-pink-dark-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-1/3 p-3">
-            <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-purple-gradient"
-                >Purple</span
-              >
-              <div class="flex flex-wrap -mx-4">
-                <div class="w-1/2 px-4">
-                  Light
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
+                    <div class="flex flex-col w-1/12">
                       <div
                         class="w-12 h-12 bg-purple-gradient rounded-10"
                       ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
+                      <span class="text-subtitle-4 text-gray">Purple</span>
                     </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-purple-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-1/2 px-4">
-                  Dark
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-purple-dark-gradient rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-purple-dark-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-1/3 p-3">
-            <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-red-gradient"
-                >red</span
-              >
-              <div class="flex flex-wrap -mx-4">
-                <div class="w-1/2 px-4">
-                  Light
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
+                    <div class="flex flex-col w-1/12">
                       <div class="w-12 h-12 bg-red-gradient rounded-10"></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
+                      <span class="text-subtitle-4 text-gray">Red</span>
                     </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-red-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-1/2 px-4">
-                  Dark
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-red-dark-gradient rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-red-dark-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-1/3 p-3">
-            <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-teal-gradient"
-                >Teal</span
-              >
-              <div class="flex flex-wrap -mx-4">
-                <div class="w-1/2 px-4">
-                  Light
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
+                    <div class="flex flex-col w-1/12">
                       <div class="w-12 h-12 bg-teal-gradient rounded-10"></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
+                      <span class="text-subtitle-4 text-gray">Teal</span>
                     </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-teal-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-1/2 px-4">
-                  Dark
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-teal-dark-gradient rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-teal-dark-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-1/3 p-3">
-            <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-yellow-gradient"
-                >Yellow</span
-              >
-              <div class="flex flex-wrap -mx-4">
-                <div class="w-1/2 px-4">
-                  Light
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
+                    <div class="flex flex-col w-1/12">
                       <div
                         class="w-12 h-12 bg-yellow-gradient rounded-10"
                       ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-yellow-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-1/2 px-4">
-                  Dark
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-yellow-dark-gradient rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-yellow-dark-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-1/3 p-3">
-            <div class="p-3 border rounded-10">
-              <span class="mb-2 font-semibold text-title-2 text-gray-gradient"
-                >Gray</span
-              >
-              <div class="flex flex-wrap -mx-4">
-                <div class="w-1/2 px-4">
-                  Light
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div class="w-12 h-12 bg-gray-gradient rounded-10"></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-gray-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-1/2 px-4">
-                  Dark
-                  <div class="flex flex-wrap mt-2">
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-gray-dark-gradient rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Default</span>
-                    </div>
-                    <div class="flex flex-col w-1/2">
-                      <div
-                        class="w-12 h-12 bg-gray-dark-gradient-hover rounded-10"
-                      ></div>
-                      <span class="text-subtitle-2 text-gradient">Hover</span>
+                      <span class="text-subtitle-4 text-gray">Yellow</span>
                     </div>
                   </div>
                 </div>
@@ -1262,13 +879,4 @@
 export default {};
 </script>
 
-<style>
-.bg-primary-gradient {
-  background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.1) 0%,
-      rgba(255, 255, 255, 0.0001) 100%
-    ),
-    #007aff;
-}
-</style>
+<style></style>
