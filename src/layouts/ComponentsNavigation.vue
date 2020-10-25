@@ -80,25 +80,25 @@
             to="/components/utilities/color"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Color ✅</span>
+            <span>Color </span>
           </router-link>
           <router-link
             to="/components/utilities/shadow"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Shadow ✅</span>
+            <span>Shadow </span>
           </router-link>
           <router-link
             to="/components/utilities/rounded"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Rounded ✅</span>
+            <span>Rounded </span>
           </router-link>
           <router-link
             to="/components/utilities/typography"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Typography ✅</span>
+            <span>Typography </span>
           </router-link>
         </li>
 
@@ -131,61 +131,61 @@
             to="/components/atomics/form"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Form ✅</span>
+            <span>Form </span>
           </router-link>
           <router-link
             to="/components/atomics/button"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Button ✅</span>
+            <span>Button </span>
           </router-link>
           <router-link
             to="/components/atomics/listview"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>List View ✅</span>
+            <span>List View </span>
           </router-link>
           <router-link
             to="/components/atomics/tabview"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Tab View ✅</span>
+            <span>Tab View </span>
           </router-link>
           <router-link
             to="/components/atomics/table"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Table ✅</span>
+            <span>Table </span>
           </router-link>
           <router-link
             to="/components/atomics/navigation"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Navigation ✅</span>
+            <span>Navigation </span>
           </router-link>
           <router-link
             to="/components/atomics/alert"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Alert ✅</span>
+            <span>Alert </span>
           </router-link>
           <router-link
             to="/components/atomics/badge"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Badge ✅</span>
+            <span>Badge </span>
           </router-link>
           <router-link
             to="/components/atomics/avatar"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Avatar ✅</span>
+            <span>Avatar </span>
           </router-link>
           <router-link
             to="/components/atomics/tag"
             class="flex flex-row items-center h-10 px-4 text-gray-600 transition duration-500 ease-in-out rounded-lg hover:text-primary hover:bg-primary-alpha"
           >
-            <span>Tag ✅</span>
+            <span>Tag </span>
           </router-link>
         </li>
 
