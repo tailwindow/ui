@@ -92,9 +92,10 @@
                       <div
                         class="relative z-20 grid gap-6 px-5 py-4 bg-white sm:gap-8 sm:p-8"
                       >
-                        <div
+                        <router-link
+                          :to="{ name: 'ComponentsIntroduction' }"
                           class="flex items-start p-2 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-primary-alpha"
-                          @click="changePage('introduction')"
+                          @click="showComponents = false"
                         >
                           <svg
                             class="flex-shrink-0 w-6 h-6 text-primary"
@@ -119,10 +120,11 @@
                           <div class="space-y-1">
                             <p class="text-tittle-2">Introduction</p>
                           </div>
-                        </div>
-                        <div
+                        </router-link>
+                        <router-link
+                          :to="{ name: 'ComponentsInstalation' }"
                           class="flex items-start p-2 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-primary-alpha"
-                          @click="changePage('instalation')"
+                          @click="showComponents = false"
                         >
                           <svg
                             class="flex-shrink-0 w-6 h-6 text-primary"
@@ -141,11 +143,12 @@
                           <div class="space-y-1">
                             <p class="text-tittle-2">Instalation</p>
                           </div>
-                        </div>
+                        </router-link>
 
-                        <div
+                        <router-link
+                          :to="{ name: 'ComponentsUtilities' }"
                           class="flex items-start p-2 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-primary-alpha"
-                          @click="changePage('utilities')"
+                          @click="showComponents = false"
                         >
                           <svg
                             class="flex-shrink-0 w-6 h-6 text-primary"
@@ -164,11 +167,12 @@
                           <div class="space-y-1">
                             <p class="text-tittle-2">Utilities & Classes</p>
                           </div>
-                        </div>
+                        </router-link>
                         <hr />
-                        <div
+                        <router-link
+                          :to="{ name: 'ComponentsAtomics' }"
                           class="flex items-start p-2 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-primary-alpha"
-                          @click="changePage('atomics')"
+                          @click="showComponents = false"
                         >
                           <svg
                             class="flex-shrink-0 w-6 h-6 text-primary"
@@ -187,10 +191,11 @@
                           <div class="space-y-1">
                             <p class="text-tittle-2">Atomics</p>
                           </div>
-                        </div>
-                        <div
+                        </router-link>
+                        <router-link
+                          :to="{ name: 'ComponentsMolecules' }"
                           class="flex items-start p-2 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-primary-alpha"
-                          @click="changePage('molecules')"
+                          @click="showComponents = false"
                         >
                           <svg
                             class="flex-shrink-0 w-6 h-6 text-primary"
@@ -209,10 +214,11 @@
                           <div class="space-y-1">
                             <p class="text-tittle-2">Molecules</p>
                           </div>
-                        </div>
-                        <div
+                        </router-link>
+                        <router-link
+                          :to="{ name: 'ComponentsOrganisms' }"
                           class="flex items-start p-2 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-primary-alpha"
-                          @click="changePage('organisms')"
+                          @click="showComponents = false"
                         >
                           <svg
                             class="flex-shrink-0 w-6 h-6 text-primary"
@@ -231,10 +237,11 @@
                           <div class="space-y-1">
                             <p class="text-tittle-2">Organism</p>
                           </div>
-                        </div>
-                        <div
+                        </router-link>
+                        <router-link
+                          :to="{ name: 'ComponentsTemplates' }"
                           class="flex items-start p-2 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-primary-alpha"
-                          @click="changePage('templates')"
+                          @click="showComponents = false"
                         >
                           <svg
                             class="flex-shrink-0 w-6 h-6 text-primary"
@@ -253,10 +260,11 @@
                           <div class="space-y-1">
                             <p class="text-tittle-2">Templates</p>
                           </div>
-                        </div>
-                        <div
+                        </router-link>
+                        <router-link
+                          :to="{ name: 'ComponentsPages' }"
                           class="flex items-start p-2 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-primary-alpha"
-                          @click="changePage('pages')"
+                          @click="showComponents = false"
                         >
                           <svg
                             class="flex-shrink-0 w-6 h-6 text-primary"
@@ -275,7 +283,7 @@
                           <div class="space-y-1">
                             <p class="text-tittle-2">Pages</p>
                           </div>
-                        </div>
+                        </router-link>
                       </div>
                     </div>
                   </div>
@@ -588,10 +596,6 @@ export default {
       const { collabsibles } = this.$refs;
       if (!collabsibles || collabsibles.contains(event.target)) return;
       this.hideAll();
-    },
-    changePage(name) {
-      this.$router.push("/components/" + name);
-      this.showComponents = false;
     }
   }
 };
