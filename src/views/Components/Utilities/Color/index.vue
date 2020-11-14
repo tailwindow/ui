@@ -8,6 +8,13 @@
           communicate status information, give feedback in response to user
           actions, and help people visualize data.
         </p>
+        <pre>
+          <code v-highlight class="javascript">
+            function test() {
+              alert('test');
+            }
+          </code>
+        </pre>
       </div>
 
       <!-- Basic Color -->
