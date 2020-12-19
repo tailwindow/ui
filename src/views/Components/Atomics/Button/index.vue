@@ -38,7 +38,7 @@
             class="pb-1 transition duration-500 ease-in-out border-b-2 border-white cursor-pointer hover:text-primary hover:border-primary"
             @click="selectedTab = 'vuejs'"
           >
-            VueJS
+            Playground
           </li>
         </ul>
       </div>
