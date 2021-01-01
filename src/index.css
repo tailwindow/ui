@@ -1,4 +1,11 @@
 /*! @import */
 @tailwind base;
+
+/* Respect height 100% on vue container */
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+
 @tailwind components;
 @tailwind utilities;
