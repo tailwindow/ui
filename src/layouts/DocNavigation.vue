@@ -1,28 +1,28 @@
 <template>
-  <router-link to="/docs">Introduction</router-link>
-  <router-link to="/docs">Installation</router-link>
+  <router-link to="/docs/v2">Introduction</router-link>
+  <router-link to="/docs/v2">Installation</router-link>
   <span class="font-bold">Components</span>
-  <router-link to="/docs">Accordion</router-link>
-  <router-link to="/docs">Alert</router-link>
-  <router-link to="/docs">Badge</router-link>
-  <router-link to="/docs">Breadcrumb</router-link>
-  <router-link to="/docs">Button</router-link>
-  <router-link to="/docs">Button Group</router-link>
-  <router-link to="/docs">Card</router-link>
-  <router-link to="/docs">Carousel</router-link>
-  <router-link to="/docs">Dropdown</router-link>
-  <router-link to="/docs">List Group</router-link>
-  <router-link to="/docs">Modal</router-link>
-  <router-link to="/docs">Navigation</router-link>
-  <router-link to="/docs">Pagination</router-link>
-  <router-link to="/docs">Popovers</router-link>
-  <router-link to="/docs">Progress</router-link>
-  <router-link to="/docs">Toast</router-link>
-  <router-link to="/docs">Tooltips</router-link>
+  <router-link to="/docs/v2">Accordion</router-link>
+  <router-link to="/docs/v2">Alert</router-link>
+  <router-link to="/docs/v2">Badge</router-link>
+  <router-link to="/docs/v2">Breadcrumb</router-link>
+  <router-link to="/docs/v2/button">Button</router-link>
+  <router-link to="/docs/v2">Button Group</router-link>
+  <router-link to="/docs/v2">Card</router-link>
+  <router-link to="/docs/v2">Carousel</router-link>
+  <router-link to="/docs/v2">Dropdown</router-link>
+  <router-link to="/docs/v2">List Group</router-link>
+  <router-link to="/docs/v2">Modal</router-link>
+  <router-link to="/docs/v2">Navigation</router-link>
+  <router-link to="/docs/v2">Pagination</router-link>
+  <router-link to="/docs/v2">Popovers</router-link>
+  <router-link to="/docs/v2">Progress</router-link>
+  <router-link to="/docs/v2">Toast</router-link>
+  <router-link to="/docs/v2">Tooltips</router-link>
   <span class="font-bold">Utilities</span>
-  <router-link to="/docs">Color</router-link>
-  <router-link to="/docs">Typography</router-link>
-  <router-link to="/docs">Shadow</router-link>
+  <router-link to="/docs/v2">Color</router-link>
+  <router-link to="/docs/v2">Typography</router-link>
+  <router-link to="/docs/v2">Shadow</router-link>
 </template>
 
 <script>

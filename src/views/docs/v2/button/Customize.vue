@@ -1,13 +1,10 @@
 <template>
   <div class="relative flex flex-col flex-1 overflow-auto">
     <!-- HEADER -->
-    <div class="p-4 space-x-4 shadow flex-0">
-      <button>Description</button>
-      <button>Playground</button>
-    </div>
+    <page-header></page-header>
     <!-- PREVIEW -->
     <div
-      class="flex items-center justify-center flex-1 flex-shrink-0 bg-gray-100"
+      class="flex items-center justify-center flex-1 flex-shrink-0 bg-gray-50"
     >
       <button>Button</button>
     </div>
@@ -23,7 +20,11 @@
 </template>
 
 <script>
+import PageHeader from "./Header";
 export default {
+  components: {
+    PageHeader
+  },
   data() {
     return {
       sourceCode: `<div>`
