@@ -1,56 +1,21 @@
 <template>
-  <div class="flex flex-col flex-1">
-    <!-- HEADER -->
-    <div class="flex-1 bg-gray-500">a</div>
-    <!-- PREVIEW -->
-    <div class="flex-1 bg-red-500">b</div>
-    <!-- CONTROL -->
-    <div class="flex-1 overflow-auto bg-yellow-500 overscroll-y-none">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit
-      magni harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt? Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Iusto, cum. Sit magni
-      harum ad minus ut. Eum labore voluptates ab, iusto commodi sapiente
-      laborum quos accusamus voluptatem explicabo temporibus deserunt?
-    </div>
+  <div class="relative flex flex-col flex-1 py-8 overflow-auto">
+    <h1 class="text-3xl">Introduction</h1>
+    <p class="text-2xl">
+      Rapidly build modern websites without ever leaving your HTML.
+    </p>
+    <p>
+      A utility-first CSS framework packed with classes like flex, pt-4,
+      text-center and rotate-90 that can be composed to build any design,
+      directly in your markup
+    </p>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {};
+  }
+};
+</script>
