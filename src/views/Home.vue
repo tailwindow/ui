@@ -1,8 +1,8 @@
 <template>
   <div
-    class="container relative flex items-center mx-auto space-x-5 space-y-20"
+    class="container relative flex flex-col-reverse p-4 mx-auto mt-20 space-x-5 md:flex-row"
   >
-    <div class="flex-1 space-y-5">
+    <div class="flex-1 mt-5 space-y-5 md:mt-0">
       <h1
         class="text-2xl font-extrabold leading-tight text-gray-900 sm:text-3xl md:text-4xl"
       >

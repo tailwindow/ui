@@ -51,7 +51,7 @@
           <img
             src="/img/resources/drawkit.svg"
             alt=""
-            class="w-full h-32 xl:px-32"
+            class="w-full h-32 xl:px-24"
           />
         </a>
         <p>
@@ -69,7 +69,7 @@
           <img
             src="/img/resources/undraw.svg"
             alt=""
-            class="w-full h-32 xl:px-32"
+            class="w-full h-32 xl:px-24"
           />
         </a>
         <p>
@@ -87,7 +87,7 @@
           <img
             src="/img/resources/manypixels.svg"
             alt=""
-            class="w-full h-32 xl:px-32"
+            class="w-full h-32 xl:px-24"
           />
         </a>
         <p>

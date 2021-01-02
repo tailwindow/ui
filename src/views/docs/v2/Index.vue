@@ -1,21 +1,12 @@
 <template>
   <div class="relative flex flex-col flex-1 py-8 overflow-auto">
-    <h1 class="text-3xl">Introduction</h1>
-    <p class="text-2xl">
-      Rapidly build modern websites without ever leaving your HTML.
-    </p>
-    <p>
-      A utility-first CSS framework packed with classes like flex, pt-4,
-      text-center and rotate-90 that can be composed to build any design,
-      directly in your markup
+    <h1 class="text-2xl font-extrabold text-black">Introduction</h1>
+    <hr class="my-5" />
+    <p class="mt-3">
+      Tailwindow is a collection of UI Components created using Tailwind CSS
+      Framework. The UI Components gives you all of the building blocks you need
+      to build any designs without any annoying opinionated styles you have to
+      fight to override.
     </p>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {};
-  }
-};
-</script>

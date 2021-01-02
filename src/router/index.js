@@ -38,6 +38,10 @@ const routes = [
       {
         path: "button/customize",
         component: () => import("../views/docs/v2/button/Customize.vue")
+      },
+      {
+        path: "color",
+        component: () => import("../views/docs/v2/color/Index.vue")
       }
     ]
   }
