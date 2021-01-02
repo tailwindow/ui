@@ -8,6 +8,14 @@ const routes = [
       {
         path: "",
         component: () => import("../views/Home.vue")
+      },
+      {
+        path: "color",
+        component: () => import("../views/ColorShadeGenerator.vue")
+      },
+      {
+        path: "resources",
+        component: () => import("../views/Resources.vue")
       }
     ]
   },
@@ -18,6 +26,10 @@ const routes = [
       {
         path: "",
         component: () => import("../views/docs/v2/Index.vue")
+      },
+      {
+        path: "installation",
+        component: () => import("../views/docs/v2/installation/Index.vue")
       },
       {
         path: "button",

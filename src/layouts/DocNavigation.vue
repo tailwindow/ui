@@ -1,6 +1,6 @@
 <template>
   <router-link to="/docs/v2">Introduction</router-link>
-  <router-link to="/docs/v2">Installation</router-link>
+  <router-link to="/docs/v2/installation">Installation</router-link>
   <span class="font-bold">Components</span>
   <router-link to="/docs/v2">Accordion</router-link>
   <router-link to="/docs/v2">Alert</router-link>

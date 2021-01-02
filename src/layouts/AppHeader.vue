@@ -1,8 +1,8 @@
 <template>
-  <div class="p-4 shadow-md">
+  <div class="shadow-md">
     <div class="container relative flex justify-between mx-auto">
-      <div><app-logo></app-logo></div>
-      <div>
+      <div class="flex items-center"><app-logo></app-logo></div>
+      <div class="p-4">
         <app-menu></app-menu>
       </div>
     </div>
