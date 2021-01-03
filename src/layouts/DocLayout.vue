@@ -3,9 +3,11 @@
     <!-- Header -->
     <app-header></app-header>
     <!-- Content -->
-    <div class="container flex flex-1 px-4 mx-auto overflow-hidden">
+    <div class="container flex flex-1 h-full px-4 mx-auto overflow-hidden">
       <doc-navigation></doc-navigation>
-      <div class="flex flex-col justify-between flex-1">
+      <div
+        class="flex flex-col justify-between flex-1 h-full px-4 overflow-auto scrolling-touch scrollbar-w-2 scrollbar-track-gray-lighter scrollbar-thumb-rounded scrollbar-thumb-gray"
+      >
         <router-view />
       </div>
     </div>

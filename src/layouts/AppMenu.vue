@@ -1,9 +1,9 @@
 <template>
-  <div class="flex space-x-6">
+  <div class="flex items-center space-x-6">
     <router-link to="/">Home</router-link>
     <router-link to="/docs/v2">Documentation</router-link>
     <router-link to="/resources">Resources</router-link>
-    <router-link to="/color">Color Shade</router-link>
+
     <a
       href="https://www.github.com/tailwindow"
       class="flex items-center space-x-1"
@@ -25,5 +25,8 @@
       </svg>
       <span>Github</span>
     </a>
+    <router-link class="px-4 py-1 text-white bg-green-700 rounded" to="/color">
+      Color Shade Generator
+    </router-link>
   </div>
 </template>

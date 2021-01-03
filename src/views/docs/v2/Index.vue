@@ -8,5 +8,8 @@
       to build any designs without any annoying opinionated styles you have to
       fight to override.
     </p>
+    <p class="mt-3">
+      Before you started you should see tailwind documentation
+    </p>
   </div>
 </template>

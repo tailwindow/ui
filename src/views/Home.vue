@@ -18,14 +18,14 @@
       <div class="flex space-x-3">
         <router-link
           to="/docs/v2"
-          class="px-8 py-3 text-white bg-indigo-600 rounded hover:bg-indigo-700"
+          class="px-8 py-3 text-white bg-indigo-500 rounded hover:bg-indigo-600"
         >
           Get Started
         </router-link>
         <a
           href="https://www.github.com"
           target="_blank"
-          class="flex items-center px-8 py-3 space-x-2 text-white bg-gray-600 rounded hover:bg-gray-700"
+          class="flex items-center px-8 py-3 space-x-2 text-white bg-gray-500 rounded hover:bg-gray-600"
         >
           <svg
             aria-hidden="true"

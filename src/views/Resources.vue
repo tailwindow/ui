@@ -45,7 +45,7 @@
         <h2 class="self-start text-2xl font-bold text-black">DrawKit</h2>
         <a
           href="https://www.drawkit.io/"
-          class="px-3 py-12 bg-blue-400 rounded-xl"
+          class="w-full px-3 py-12 bg-blue-400 rounded-xl"
           target="_blank"
         >
           <img
@@ -63,7 +63,7 @@
         <h2 class="self-start text-2xl font-bold text-black">UnDraw</h2>
         <a
           href="https://undraw.co/illustrations"
-          class="px-3 py-12 bg-blue-600 rounded-xl"
+          class="w-full px-3 py-12 bg-blue-600 rounded-xl"
           target="_blank"
         >
           <img
@@ -81,7 +81,7 @@
         <h2 class="self-start text-2xl font-bold text-black">ManyPixels</h2>
         <a
           href="https://www.manypixels.co/gallery/"
-          class="px-3 py-12 bg-green-600 rounded-xl"
+          class="w-full px-3 py-12 bg-green-600 rounded-xl"
           target="_blank"
         >
           <img
@@ -92,7 +92,7 @@
         </a>
         <p>
           ManyPixels gives you a professional designer to help you with all of
-          your creative needs. No interviews, no contracts, unlimited designs.
+          your creative needs.
         </p>
       </div>
     </div>

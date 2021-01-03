@@ -7,6 +7,7 @@ import "./index.css";
 
 import Highlight from "@point-hub/vue-highlight";
 import "highlight.js/styles/agate.css";
+
 // Import Languages
 import javascript from "highlight.js/lib/languages/javascript";
 import html from "highlight.js/lib/languages/xml";

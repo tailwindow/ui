@@ -1,0 +1,20 @@
+@layer components {
+  .btn {
+    @apply px-8 py-3;
+  }
+  .btn-primary {
+    @apply text-white bg-indigo-500
+  }
+  .btn-success {
+    @apply text-white bg-green-500
+  }
+  .btn-danger {
+    @apply text-white bg-red-500
+  }
+  .btn-warning {
+    @apply text-white bg-yellow-500
+  }
+  .btn-info {
+    @apply text-white bg-blue-500
+  }
+}

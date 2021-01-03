@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-
+import Docs from "../views/docs/routes";
 const routes = [
   {
     path: "/",
@@ -22,28 +22,7 @@ const routes = [
   {
     path: "/docs/v2",
     component: () => import("../layouts/DocLayout.vue"),
-    children: [
-      {
-        path: "",
-        component: () => import("../views/docs/v2/Index.vue")
-      },
-      {
-        path: "installation",
-        component: () => import("../views/docs/v2/installation/Index.vue")
-      },
-      {
-        path: "button",
-        component: () => import("../views/docs/v2/button/Index.vue")
-      },
-      {
-        path: "button/customize",
-        component: () => import("../views/docs/v2/button/Customize.vue")
-      },
-      {
-        path: "color",
-        component: () => import("../views/docs/v2/color/Index.vue")
-      }
-    ]
+    children: [...Docs]
   }
 ];
 

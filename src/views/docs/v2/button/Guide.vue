@@ -2,28 +2,8 @@
   <div class="relative flex flex-col flex-1 space-y-3 ">
     <!-- HEADER -->
     <page-header></page-header>
-    <h1 class="text-3xl font-extrabold">Button</h1>
-    <p>
-      In this example we will create button component
-    </p>
-    <!-- EXAMPLE -->
-    <div class="relative flex flex-col flex-1">
-      <div class="flex flex-col my-6 shadow">
-        <div
-          class="flex items-center justify-center py-10 space-x-3 overflow-auto bg-gray-50"
-        >
-          <button class="btn btn-primary">Primary</button>
-          <button class="btn btn-success">Success</button>
-          <button class="btn btn-warning">Warning</button>
-          <button class="btn btn-danger">Danger</button>
-          <button class="btn btn-info">Info</button>
-        </div>
-        <div class="relative overflow-auto">
-          <pre><code class="html" v-highlight>{{ sourceCode }}</code></pre>
-        </div>
-      </div>
-    </div>
-    <h1 class="text-3xl font-extrabold">Example</h1>
+
+    <h1 class="text-3xl font-extrabold">Guide</h1>
     <p>
       How to create a button
     </p>
@@ -115,11 +95,11 @@ export default {
   },
   data() {
     return {
-      sourceCode: `<button class="btn btn-primary">Button</button>
-<button class="btn btn-success">Button</button>
-<button class="btn btn-warning">Button</button>
-<button class="btn btn-danger">Button</button>
-<button class="btn btn-info">Button</button>`,
+      sourceCode: `<button class="px-8 py-3 text-white bg-blue-500">Button</button>
+<button class="px-8 py-3 text-white bg-red-500">Button</button>
+<button class="px-8 py-3 text-white bg-green-500">Button</button>
+<button class="px-8 py-3 text-white bg-yellow-500">Button</button>
+<button class="px-8 py-3 text-white bg-gray-500">Button</button>`,
       sourceCode1: `<button class="px-8 py-3 border">Button</button>`,
       sourceCode2: `<!-- Outline Button -->
 <button class="... text-blue-500 border-blue-500">Button</button>

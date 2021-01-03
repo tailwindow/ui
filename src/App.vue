@@ -3,3 +3,9 @@
     <router-view />
   </div>
 </template>
+
+<style>
+.hljs {
+  padding: 1rem !important;
+}
+</style>

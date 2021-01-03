@@ -7,7 +7,7 @@
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
     >
-      <title>Group 2</title>
+      <title>Tailwindow</title>
       <g
         id="Tailwindow-Logo"
         stroke="none"
@@ -15,7 +15,7 @@
         fill="none"
         fill-rule="evenodd"
       >
-        <g id="Group-2">
+        <g id="Tailwindow">
           <g id="Icon" transform="translate(0.000000, 98.000000)">
             <rect
               id="Rectangle"
