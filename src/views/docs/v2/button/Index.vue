@@ -2,11 +2,11 @@
   <div class="relative flex flex-col flex-1 space-y-3 ">
     <!-- HEADER -->
     <page-header></page-header>
-    <h1 class="text-3xl font-extrabold">Button</h1>
+    <h1 class="heading-1">Button</h1>
     <p>
       In this example we will create button component
     </p>
-    <!-- EXAMPLE -->
+    <!-- EXAMPLE: DEFAULT -->
     <div class="relative flex flex-col flex-1">
       <div class="flex flex-col my-6 shadow">
         <div
@@ -17,87 +17,24 @@
           <button class="btn btn-warning">Warning</button>
           <button class="btn btn-danger">Danger</button>
           <button class="btn btn-info">Info</button>
+          <button class="btn btn-light">Light</button>
+          <button class="btn btn-dark">Dark</button>
         </div>
         <div class="relative overflow-auto">
           <pre><code class="html" v-highlight>{{ sourceCode }}</code></pre>
         </div>
       </div>
     </div>
-    <h1 class="text-3xl font-extrabold">Example</h1>
-    <p>
-      How to create a button
-    </p>
-    <!-- Step 1 -->
+    <!-- EXAMPLE: ROUND -->
     <div class="relative flex flex-col flex-1">
-      <h2 class="text-2xl font-bold">Step 1</h2>
-      <p>
-        Adding border to your button and apply padding, Control the padding on
-        one side of an element using the p{t|r|b|l|x|y}-{size} utilities.
-      </p>
-
-      <!-- PREVIEW -->
       <div class="flex flex-col my-6 shadow">
         <div
           class="flex items-center justify-center py-10 space-x-3 overflow-auto bg-gray-50"
         >
-          <button class="px-8 py-3 border">Button</button>
-        </div>
-        <div class="relative overflow-auto">
-          <pre><code class="html" v-highlight>{{ sourceCode1 }}</code></pre>
-        </div>
-      </div>
-    </div>
-    <!-- Step 1 -->
-    <div class="relative flex flex-col flex-1">
-      <h2 class="text-2xl font-bold">Step 2</h2>
-      <p>
-        Implement color to your button
-      </p>
-      <!-- PREVIEW -->
-      <div class="flex flex-col my-6 shadow">
-        <div
-          class="flex items-center justify-center py-10 space-x-3 overflow-auto bg-gray-50"
-        >
-          <button class="px-8 py-3 text-blue-500 border border-blue-500">
-            Button
-          </button>
-          <button
-            class="px-8 py-3 text-white bg-blue-500 border border-blue-500"
-          >
-            Button
-          </button>
-        </div>
-        <div class="relative overflow-auto">
-          <pre><code class="html" v-highlight>{{ sourceCode2 }}</code></pre>
-        </div>
-      </div>
-    </div>
-    <!-- Step 3 -->
-    <div class="relative flex flex-col flex-1">
-      <h2 class="text-2xl font-bold">Step 3</h2>
-      <p>
-        Add radius to your button
-      </p>
-      <!-- PREVIEW -->
-      <div class="flex flex-col my-6 shadow">
-        <div
-          class="flex items-center justify-center py-10 space-x-3 overflow-auto bg-gray-50"
-        >
-          <button class="px-8 py-3 text-white bg-blue-500 rounded-sm">
-            Button
-          </button>
-          <button class="px-8 py-3 text-white bg-red-500 rounded">
-            Button
-          </button>
-          <button class="px-8 py-3 text-white bg-green-500 rounded-md">
-            Button
-          </button>
-          <button class="px-8 py-3 text-white bg-yellow-500 rounded-xl">
-            Button
-          </button>
-          <button class="px-8 py-3 text-white bg-gray-500 rounded-full">
-            Button
-          </button>
+          <button class="rounded btn btn-primary">Rounded</button>
+          <button class="btn btn-primary rounded-xl">Rounded xl</button>
+          <button class="btn btn-primary rounded-2xl">Rounded 2xl</button>
+          <button class="btn btn-primary rounded-3xl">Rounded 3xl</button>
         </div>
         <div class="relative overflow-auto">
           <pre><code class="html" v-highlight>{{ sourceCodeRounded }}</code></pre>
@@ -115,21 +52,17 @@ export default {
   },
   data() {
     return {
-      sourceCode: `<button class="btn btn-primary">Button</button>
-<button class="btn btn-success">Button</button>
-<button class="btn btn-warning">Button</button>
-<button class="btn btn-danger">Button</button>
-<button class="btn btn-info">Button</button>`,
-      sourceCode1: `<button class="px-8 py-3 border">Button</button>`,
-      sourceCode2: `<!-- Outline Button -->
-<button class="... text-blue-500 border-blue-500">Button</button>
-<!-- Default Button -->
-<button class="... text-white bg-blue-500 border-blue-500">Button</button>`,
-      sourceCodeRounded: `<button class="... rounded-lg">Button</button>
-<button class="... rounded-lg">Button</button>
-<button class="... rounded-lg">Button</button>
-<button class="... rounded-lg">Button</button>
-<button class="... rounded-lg">Button</button>`
+      sourceCode: `<button class="btn btn-primary">Primary</button>
+<button class="btn btn-success">Success</button>
+<button class="btn btn-warning">Warning</button>
+<button class="btn btn-danger">Danger</button>
+<button class="btn btn-info">Info</button>
+<button class="btn btn-light">Light</button>
+<button class="btn btn-dark">Dark</button>`,
+      sourceCodeRounded: `<button class="... rounded">Rounded</button>
+<button class="... rounded-xl">Rounded xl</button>
+<button class="... rounded-2xl">Rounded 2xl</button>
+<button class="... rounded-3xl">Rounded 3xl</button>`
     };
   }
 };

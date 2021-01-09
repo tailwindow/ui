@@ -1,0 +1,11 @@
+@layer components {
+  .heading-1 {
+    @apply text-3xl font-extrabold;
+  }
+  .heading-2 {
+    @apply text-2xl font-extrabold;
+  }
+  .heading-3 {
+    @apply text-xl font-extrabold;
+  }
+}

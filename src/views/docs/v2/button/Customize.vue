@@ -26,14 +26,14 @@
         @click="customizeMenu = 'size'"
         class="px-2 py-3 transition duration-500 border-b-2 border-white cursor-pointer hover:text-indigo-500 hover:border-indigo-500"
       >
-        Sizing
+        Size
       </li>
     </ul>
     <div
       class="flex flex-col flex-1 py-4 space-y-3 overflow-auto"
       v-if="customizeMenu === ''"
     >
-      <div class="grid grid-cols-4 gap-4">
+      <div class="grid items-center grid-cols-4 gap-4">
         <div class="">Text</div>
         <div class="col-span-3">
           <input
@@ -45,61 +45,94 @@
       </div>
     </div>
     <div
-      class="flex flex-col flex-1 py-4 space-y-3 overflow-auto"
+      class="flex flex-col flex-1 py-4 space-y-5 overflow-auto"
       v-if="customizeMenu === 'size'"
     >
-      <div class="grid grid-cols-4 gap-4">
-        <div class="">Text</div>
-        <div class="col-span-3">
-          <input
-            type="text"
-            v-model="text"
-            class="w-full px-3 py-2 border border-gray-500"
-          />
-        </div>
-      </div>
-      <div class="grid grid-cols-4 gap-4">
-        <div class="">Padding</div>
-        <div class="col-span-3">
-          <select name="" id="" class="w-full px-3 py-2 border border-gray-500">
-            <option value="">-</option>
-            <option value="1">1</option>
-            <option value="1">1</option>
-            <option value="1">1</option>
-          </select>
-        </div>
-      </div>
-      <div>
-        <div class="m-4">
-          Border :
-          <button class="p-2 text-white bg-gray-700" @click="round()">
-            Rounded
-          </button>
-          <button class="p-2 text-white bg-gray-700" @click="square()">
-            Square
-          </button>
-        </div>
-        <div class="m-4">
-          Color :
-          <button class="p-2 text-white bg-gray-700" @click="colorRed()">
+      <div class="grid items-center grid-cols-4 gap-4">
+        <div class="">Color</div>
+        <div class="col-span-3 space-x-3">
+          <button
+            class="px-6 py-2 text-white bg-red-500"
+            @click="
+              color('white');
+              bgColor('red', 500);
+            "
+          >
             Red
           </button>
-          <button class="p-2 text-white bg-gray-700" @click="colorBlue()">
+          <button
+            class="px-6 py-2 text-white bg-blue-500"
+            @click="
+              color('white');
+              bgColor('blue', 500);
+            "
+          >
             Blue
           </button>
+          <button
+            class="px-6 py-2 text-white bg-green-500"
+            @click="
+              color('white');
+              bgColor('green', 500);
+            "
+          >
+            Green
+          </button>
+          <button
+            class="px-6 py-2 text-white bg-yellow-500"
+            @click="
+              color('white');
+              bgColor('yellow', 500);
+            "
+          >
+            Yellow
+          </button>
         </div>
-        <div class="m-4">
-          Padding :
-          <button class="p-2 text-white bg-gray-700" @click="paddingSmall()">
+      </div>
+      <div class="grid items-center grid-cols-4 gap-4">
+        <div class="">Padding</div>
+        <div class="col-span-3 space-x-3">
+          <button
+            class="px-6 py-2 text-white bg-gray-700"
+            @click="padding(6, 2)"
+          >
             Small
           </button>
-          <button class="p-2 text-white bg-gray-700" @click="paddingLarge()">
+          <button
+            class="px-6 py-2 text-white bg-gray-700"
+            @click="padding(8, 3)"
+          >
+            Medium
+          </button>
+          <button
+            class="px-6 py-2 text-white bg-gray-700"
+            @click="padding(10, 4)"
+          >
             Large
           </button>
         </div>
-        <div class="m-4">
-          Text :
-          <input type="text" v-model="text" class="w-full px-4 py-2 border" />
+      </div>
+      <div class="grid items-center grid-cols-4 gap-4">
+        <div class="">Shape</div>
+        <div class="col-span-3 space-x-3">
+          <button class="px-6 py-2 text-white bg-gray-700" @click="round(null)">
+            Square
+          </button>
+          <button class="px-6 py-2 text-white bg-gray-700" @click="round('xl')">
+            Rounded XL
+          </button>
+          <button
+            class="px-6 py-2 text-white bg-gray-700"
+            @click="round('2xl')"
+          >
+            Rounded 2XL
+          </button>
+          <button
+            class="px-6 py-2 text-white bg-gray-700"
+            @click="round('3xl')"
+          >
+            Rounded 3XL
+          </button>
         </div>
       </div>
     </div>
@@ -138,29 +171,17 @@ export default {
     };
   },
   methods: {
-    round() {
-      this.classRadius = "rounded";
-    },
-    square() {
-      this.classRadius = "";
+    round(size = null) {
+      this.classRadius = size ? `rounded-${size}` : "";
     },
     bgColor(name, level) {
-      this.classBgColor = level ? `bg-${name}-${level}` : `text-${name}`;
+      this.classBgColor = level ? `bg-${name}-${level}` : `bg-${name}`;
     },
     color(name, level = null) {
       this.classColor = level ? `text-${name}-${level}` : `text-${name}`;
     },
-    colorRed() {
-      this.classBgColor = "bg-red-700 text-white";
-    },
-    colorBlue() {
-      this.classBgColor = "bg-blue-700 text-white";
-    },
-    paddingSmall() {
-      this.classPadding = "py-2 px-4";
-    },
-    paddingLarge() {
-      this.classPadding = "py-4 px-6";
+    padding(x, y) {
+      this.classPadding = `px-${x} py-${y}`;
     }
   }
 };

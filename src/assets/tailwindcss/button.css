@@ -5,16 +5,49 @@
   .btn-primary {
     @apply text-white bg-indigo-500
   }
+  .btn-primary:hover {
+    @apply bg-indigo-600
+  }
+  .btn-secondary {
+    @apply text-white bg-indigo-500
+  }
+  .btn-secondary:hover {
+    @apply bg-indigo-600
+  }
   .btn-success {
     @apply text-white bg-green-500
+  }
+  .btn-success:hover {
+    @apply bg-green-600
   }
   .btn-danger {
     @apply text-white bg-red-500
   }
+  .btn-danger:hover {
+    @apply bg-red-600
+  }
   .btn-warning {
     @apply text-white bg-yellow-500
   }
+  .btn-warning:hover {
+    @apply bg-yellow-600
+  }
   .btn-info {
     @apply text-white bg-blue-500
+  }
+  .btn-info:hover {
+    @apply bg-blue-600
+  }
+  .btn-light {
+    @apply text-gray-500 bg-gray-100
+  }
+  .btn-light:hover {
+    @apply bg-gray-200
+  }
+  .btn-dark {
+    @apply text-white bg-gray-900
+  }
+  .btn-dark:hover {
+    @apply bg-gray-800
   }
 }

@@ -63,19 +63,16 @@
         <div
           class="flex items-center justify-center py-10 space-x-3 overflow-auto bg-gray-50"
         >
-          <button class="px-8 py-3 text-white bg-blue-500 rounded-sm">
+          <button class="rounded btn-primary btn">
             Button
           </button>
-          <button class="px-8 py-3 text-white bg-red-500 rounded">
+          <button class="btn-primary btn rounded-xl">
             Button
           </button>
-          <button class="px-8 py-3 text-white bg-green-500 rounded-md">
+          <button class="btn-primary btn rounded-2xl">
             Button
           </button>
-          <button class="px-8 py-3 text-white bg-yellow-500 rounded-xl">
-            Button
-          </button>
-          <button class="px-8 py-3 text-white bg-gray-500 rounded-full">
+          <button class="btn-primary btn rounded-3xl">
             Button
           </button>
         </div>
@@ -105,11 +102,10 @@ export default {
 <button class="... text-blue-500 border-blue-500">Button</button>
 <!-- Default Button -->
 <button class="... text-white bg-blue-500 border-blue-500">Button</button>`,
-      sourceCodeRounded: `<button class="... rounded-lg">Button</button>
-<button class="... rounded-lg">Button</button>
-<button class="... rounded-lg">Button</button>
-<button class="... rounded-lg">Button</button>
-<button class="... rounded-lg">Button</button>`
+      sourceCodeRounded: `<button class="... rounded">Button</button>
+<button class="... rounded-xl">Button</button>
+<button class="... rounded-2xl">Button</button>
+<button class="... rounded-3xl">Button</button>`
     };
   }
 };

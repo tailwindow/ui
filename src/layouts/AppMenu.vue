@@ -26,7 +26,7 @@
       <span>Github</span>
     </a>
     <router-link class="px-4 py-1 text-white bg-green-700 rounded" to="/color">
-      Color Shade Generator
+      Color Shades Generator
     </router-link>
   </div>
 </template>
